@@ -1,0 +1,196 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(224, 232, 255);
+}
+.image {
+  width: 330px;
+  height: 150px;
+  border-radius: 20px 20px 0px 0px;
+  margin: 50px auto 0px auto;
+  background: url(./images/illustration-hero.svg) center/cover;
+}
+.order-summary {
+  width: 330px;
+  height: 450px;
+  background: rgb(245, 247, 255);
+  margin: 0px auto;
+  border-radius: 0px 0px 20px 20px;
+}
+.order {
+  color: rgb(31, 47, 86);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 30px 63px 0px 63px;
+  word-spacing: -7px;
+}
+.first-paragraph {
+  width: 270px;
+  color: rgb(114, 128, 167);
+  text-align: center;
+  margin: 30px auto 0px auto;
+  line-height: 25px;
+  font-size: 18px;
+}
+.plan {
+  background: rgb(241, 244, 253);
+  width: 270px;
+  height: 70px;
+  margin: 40px auto 0px auto;
+  border-radius: 10px;
+}
+.img {
+  width: 50px;
+  height: 50px;
+  margin: 9px;
+}
+.second-paragraph {
+  display: inline-block;
+  color: rgb(31, 47, 86);
+  font-weight: bolder;
+  line-height: 23px;
+  position: relative;
+  bottom: 15px;
+}
+span {
+  display: block;
+  color: rgb(114, 128, 167);
+  font-weight: normal;
+}
+.link {
+  font-weight: bolder;
+  position: relative;
+  bottom: 25px;
+  left: 30px;
+}
+.link:hover {
+  text-decoration: none;
+  color: rgb(101, 90, 223);
+}
+.third-paragraph {
+  background: rgb(56, 41, 224);
+  text-align: center;
+  width: 270px;
+  height: 50px;
+  margin: 40px auto 0px auto;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 17px;
+  padding: 15px;
+}
+.third-paragraph:hover {
+  background: rgb(101, 90, 223);
+}
+.fourth-paragraph {
+  color: rgb(114, 128, 167);
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+  padding: 25px;
+}
+/* DESKTOP SCREEN */
+@media screen and (min-width: 1440px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    background: rgb(224, 232, 255);
+  }
+  .image {
+    width: 480px;
+    height: 230px;
+    border-radius: 20px 20px 0px 0px;
+    margin: 75px auto 0px auto;
+    background: url(./images/illustration-hero.svg) center/cover;
+  }
+  .order-summary {
+    width: 480px;
+    height: 500px;
+    background: rgb(245, 247, 255);
+    margin: 0px auto;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .order {
+    color: rgb(31, 47, 86);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    word-spacing: -7px;
+  }
+  .first-paragraph {
+    width: 300px;
+    color: rgb(114, 128, 167);
+    text-align: center;
+    margin: 30px auto 0px auto;
+    line-height: 25px;
+    font-size: 18px;
+  }
+  .plan {
+    background: rgb(241, 244, 253);
+    width: 350px;
+    height: 90px;
+    margin: 40px auto 0px auto;
+    border-radius: 10px;
+  }
+  .img {
+    width: 50px;
+    height: 50px;
+    margin: 18px;
+  }
+  .second-paragraph {
+    display: inline-block;
+    color: rgb(31, 47, 86);
+    font-weight: bolder;
+    line-height: 23px;
+    position: relative;
+    bottom: 24px;
+    left: 9px;
+  }
+  span {
+    display: block;
+    color: rgb(114, 128, 167);
+    font-weight: normal;
+  }
+  .link {
+    font-weight: bolder;
+    position: relative;
+    bottom: 35px;
+    left: 100px;
+    font-size: 18px;
+  }
+  .link:hover {
+    text-decoration: none;
+    color: rgb(101, 90, 223);
+  }
+  .third-paragraph {
+    background: rgb(56, 41, 224);
+    text-align: center;
+    width: 350px;
+    height: 50px;
+    margin: 40px auto 0px auto;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 17px;
+    padding: 15px;
+  }
+  .third-paragraph:hover {
+    background: rgb(101, 90, 223);
+  }
+  .fourth-paragraph {
+    color: rgb(114, 128, 167);
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    padding: 25px;
+  }
+}
